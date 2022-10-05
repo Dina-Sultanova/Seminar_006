@@ -27,3 +27,19 @@ for (int i = 0; i < array.Length; i++)
 
 ReserveArray(array);
 Console.WriteLine(string.Join("", array));
+
+
+// Второй вариант решения задачи 
+// Console.WriteLine ("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// 
+// GetBinaryView(number);
+// 
+// void GetBinaryView (int N)
+// 
+// {
+// if (N == 0) return;
+// GetBinaryView (N / 2);
+// Console.Write (N % 2);
+// }
+// 
